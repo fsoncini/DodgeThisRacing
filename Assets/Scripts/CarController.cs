@@ -60,8 +60,8 @@
                     axleInfo.rightWheel.steerAngle = steering;
                 }
                 if (axleInfo.motor) {
-                    axleInfo.leftWheel.motorTorque = motor;
-                    axleInfo.rightWheel.motorTorque = motor;
+                    motor += motor / 2;
+                    axleInfo.leftWheel.motorTorque = axleInfo.rightWheel.motorTorque = motor;
                 }
                 ApplyLocalPositionToVisuals(axleInfo.leftWheel);
                 ApplyLocalPositionToVisuals(axleInfo.rightWheel);

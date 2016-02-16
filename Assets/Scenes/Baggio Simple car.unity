@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 175960632}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
   m_LocalPosition: {x: -0.8, y: 0, z: -1.03}
-  m_LocalScale: {x: 1, y: -0.015092812, z: 1}
+  m_LocalScale: {x: 0.9999995, y: -0.07558106, z: 1}
   m_Children: []
   m_Father: {fileID: 1466053713}
   m_RootOrder: 2
@@ -122,7 +122,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 175960632}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 34
+  m_Radius: 6.75
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -132,13 +132,13 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 0.4
+    m_ExtremumSlip: 0.9
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
+    m_ExtremumSlip: 0.5
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -203,7 +203,7 @@ Transform:
   m_GameObject: {fileID: 248983118}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
   m_LocalPosition: {x: 0.8, y: 0, z: -1}
-  m_LocalScale: {x: 1, y: -0.0150928125, z: 1}
+  m_LocalScale: {x: 0.9999995, y: -0.07558106, z: 1}
   m_Children: []
   m_Father: {fileID: 1466053713}
   m_RootOrder: 3
@@ -214,7 +214,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 248983118}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 34
+  m_Radius: 6.75
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -224,13 +224,13 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 0.4
+    m_ExtremumSlip: 0.9
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
+    m_ExtremumSlip: 0.5
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -499,9 +499,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 912860584}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.20782678, y: 0, z: 0, w: 0.9781657}
   m_LocalPosition: {x: 0, y: 0.05, z: 5.87}
-  m_LocalScale: {x: 5.612941, y: 0.1026453, z: 1}
+  m_LocalScale: {x: 5.612941, y: 0.20905834, z: 14.858092}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -698,7 +698,7 @@ Transform:
   m_GameObject: {fileID: 1705251639}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
   m_LocalPosition: {x: -0.8, y: 0, z: 0.969}
-  m_LocalScale: {x: 1, y: -0.0150928125, z: 1}
+  m_LocalScale: {x: 0.9999995, y: -0.07558106, z: 1}
   m_Children: []
   m_Father: {fileID: 1466053713}
   m_RootOrder: 1
@@ -709,7 +709,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705251639}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 34
+  m_Radius: 6.75
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -719,13 +719,13 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 0.4
+    m_ExtremumSlip: 0.9
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
+    m_ExtremumSlip: 0.5
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -795,7 +795,7 @@ MonoBehaviour:
   axleInfos:
   - leftWheel: {fileID: 1705251641}
     rightWheel: {fileID: 2047626596}
-    motor: 0
+    motor: 1
     steering: 1
   - leftWheel: {fileID: 175960634}
     rightWheel: {fileID: 248983120}
@@ -806,7 +806,7 @@ MonoBehaviour:
   - {fileID: 2047626594}
   - {fileID: 175960632}
   - {fileID: 248983118}
-  maxMotorTorque: 250
+  maxMotorTorque: 675
   maxSteeringAngle: 30
 --- !u!54 &1797861836
 Rigidbody:
@@ -830,7 +830,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1797861834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.744, z: 0}
+  m_LocalPosition: {x: 0, y: 4.77, z: -6.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1552769565}
@@ -863,7 +863,7 @@ Transform:
   m_GameObject: {fileID: 2047626594}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
   m_LocalPosition: {x: 0.8, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: -0.015092813, z: 1}
+  m_LocalScale: {x: 0.9999995, y: -0.07558107, z: 1}
   m_Children: []
   m_Father: {fileID: 1466053713}
   m_RootOrder: 0
@@ -874,7 +874,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2047626594}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 34
+  m_Radius: 6.75
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -884,13 +884,13 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 0.4
+    m_ExtremumSlip: 0.9
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
+    m_ExtremumSlip: 0.5
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
